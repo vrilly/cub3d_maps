@@ -1,0 +1,22 @@
+.! Basic cube to test the textures mapping to the right sides
+
+R 800 600
+
+NO res/wall_n.xpm
+SO res/wall_s.xpm
+WE res/wall_w.xpm
+EA res/wall_e.xpm
+S res/spr_tex_a.xpm
+
+F 40, 40, 40
+C 70, 70, 70
+
+111111111
+1       1
+1       1
+1       1
+1   1   1
+1       1
+1   N   1
+1       1
+111111111

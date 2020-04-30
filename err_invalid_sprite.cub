@@ -1,0 +1,24 @@
+.! This map loads invalid data as texture
+
+R 800 600
+
+.. Here we load garbage into the program
+NO basic_level.cub
+
+SO res/wall_s.xpm
+WE res/wall_w.xpm
+EA res/wall_e.xpm
+S res/spr_tex_a.xpm
+
+F 40, 40, 40
+C 70, 70, 70
+
+111111111
+1       1
+1       1
+1       1
+1   1   1
+1       1
+1   N   1
+1       1
+111111111

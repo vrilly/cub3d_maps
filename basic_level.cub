@@ -1,3 +1,5 @@
+.! Simple "maze" map with multiple sprites
+
 R 800 600
 
 NO res/wall_tex_a.xpm
